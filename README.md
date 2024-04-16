@@ -2,6 +2,9 @@
 
 This library is a fork of; "yasinkuyu/omnipay-iyzico" library. We will be implementing full feature Omnipay library over the top of this library.
 
+## Features implemented
+- [x] Purchase
+
 **Iyzico gateway for Omnipay payment processing library**
 
 [![Latest Stable Version](https://poser.pugx.org/yasinkuyu/omnipay-iyzico/v/stable)](https://packagist.org/packages/yasinkuyu/omnipay-iyzico) 

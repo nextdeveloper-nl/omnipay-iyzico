@@ -1,5 +1,5 @@
 {
-    "name": "yasinkuyu/omnipay-iyzico",
+    "name": "nextdeveloper/omnipay-iyzico",
     "type": "library",
     "description": "Iyzico gateway for Omnipay payment processing library",
     "keywords": [
@@ -12,16 +12,20 @@
         "pay",
         "payment"
     ],
-    "homepage": "https://github.com/yasinkuyu/omnipay-iyzico",
+    "homepage": "https://github.com/nextdeveloper/omnipay-iyzico",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Harun Barış Bulut",
+            "email": "baris.bulut@plusclouds.com"
+        },
         {
             "name": "Yasin Kuyu",
             "email": "yasinkuyu@gmail.com"
         },
         {
             "name": "Omnipay Contributors",
-            "homepage": "https://github.com/yasinkuyu/omnipay-iyzico/contributors"
+            "homepage": "https://github.com/nextdeveloper-nl/omnipay-iyzico/contributors"
         }
     ],
     "autoload": {
@@ -30,7 +34,8 @@
         }
     },
     "require": {
-        "omnipay/common": "^3"
+        "omnipay/common": "*",
+        "iyzico/iyzipay-php": "^2.0"
     },
     "require-dev": {
         "omnipay/tests": "^3",
@@ -38,9 +43,6 @@
         "phpro/grumphp": "^0.14"
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "3.2.x-dev"
-        }
     },
     "prefer-stable": true
 
