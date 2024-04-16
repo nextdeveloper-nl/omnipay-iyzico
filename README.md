@@ -7,10 +7,7 @@ This library is a fork of; "yasinkuyu/omnipay-iyzico" library. We will be implem
 
 **Iyzico gateway for Omnipay payment processing library**
 
-[![Latest Stable Version](https://poser.pugx.org/yasinkuyu/omnipay-iyzico/v/stable)](https://packagist.org/packages/yasinkuyu/omnipay-iyzico) 
-[![Total Downloads](https://poser.pugx.org/yasinkuyu/omnipay-iyzico/downloads)](https://packagist.org/packages/yasinkuyu/omnipay-iyzico) 
-[![Latest Unstable Version](https://poser.pugx.org/yasinkuyu/omnipay-iyzico/v/unstable)](https://packagist.org/packages/yasinkuyu/omnipay-iyzico) 
-[![License](https://poser.pugx.org/yasinkuyu/omnipay-iyzico/license)](https://packagist.org/packages/yasinkuyu/omnipay-iyzico)
+[![License](https://poser.pugx.org/nextdeveloper/omnipay-iyzico/license)](https://packagist.org/packages/nextdeveloper/omnipay-iyzico)
 
 [Omnipay](https://github.com/thephpleague/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP 5.3+. This package implements Iyzico (Turkish Payment Gateways) support for Omnipay.
@@ -29,7 +26,7 @@ Ay ve yıl olarak herhangi bir ileri değer verebilirsiniz. Cvv içinde aynı ş
 
 ## Installation
 
-    composer require league/omnipay iyzico/iyzipay-php yasinkuyu/omnipay-iyzico
+    composer require league/omnipay iyzico/iyzipay-php nextdeveloper/omnipay-iyzico
 
 Omnipay is installed via [Composer](http://getcomposer.org/). To install, simply add it
 to your `composer.json` file:
@@ -38,7 +35,7 @@ to your `composer.json` file:
 {
     "require": {
         "iyzico/iyzipay-php": "^2.0",
-        "yasinkuyu/omnipay-iyzico": "^3.0"
+        "nextdeveloper/omnipay-iyzico": "*"
     }
 }
 ```
@@ -50,7 +47,7 @@ And run composer to update your dependencies:
 
 ## Basic Usage
 
-The following gateways are provided by this package:
+The following gateways are provided by this package: **Not yet revisited**
 
 * Iyzico v3
 
